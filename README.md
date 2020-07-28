@@ -1,12 +1,10 @@
 # Polymorphism
 Example of polymorphism with JavaScript
 
-## Definición:
+## Definition:
 
-* Polimorfismo es la posibilidad de llamar metodos en comun 
-de diferentes objetos sin afectar el resultado
+* Polymorphism is the possibility of calling common methods of different objects without affecting the result
 
-- Esto es un ejemplo en donde se muestra dos objetos, el primer objeto es Picture y 
-el segundo objeto es Market con un metodo en comun que se llama description()
+- This is an example where two objects are shown, the first object is Picture and the second object is Market with a common method called description ()
 
 
