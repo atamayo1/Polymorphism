@@ -1,11 +1,11 @@
 
-class Fruit {
+class Picture {
     constructor(width, height) {
       this.width = width;
       this.height = height;
     }
     description(){
-        document.getElementById("polyexample").innerHTML = `A. Dimension de la fruta: ancho-${this.width} / alto-${this.height}`;
+        document.getElementById("polyexample").innerHTML = `A. Dimension del cuadro: ancho-${this.width} / alto-${this.height}`;
     }
   }
 class Market {
@@ -15,7 +15,7 @@ class Market {
         this.price = price;
     }
     description(){
-        document.getElementById("polyexample").innerHTML = `B. Dimension de la fruta: ancho-${this.width} / alto-${this.height} / $ ${this.price}`;
+        document.getElementById("polyexample").innerHTML = `B. Dimension del cuadro: ancho-${this.width} / alto-${this.height} / $ ${this.price}`;
     }
 }  
 
@@ -25,11 +25,11 @@ function showDescription(obj) {
     }
 }
 
-var myFruit = new Fruit(50, 60);
+var myPicture = new Fruit(50, 60);
 var myMarket = new Market(50, 60, 25);
 
-showActionFruit = (e) => {
-    showDescription(myFruit);
+showActionPicture = (e) => {
+    showDescription(myPicture);
 }
 
 showActionMarket = (e) => {
